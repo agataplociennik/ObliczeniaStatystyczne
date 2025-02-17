@@ -1,0 +1,24 @@
+# Ignorowanie plików i folderów związanych z Pythonem
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorowanie plików systemowych
+.DS_Store
+
+# Ignorowanie folderów środowiska wirtualnego
+venv/
+.env/
+conda-meta/
+bin/
+lib/
+include/
+share/
+ssl/
+etc/
+
+# Ignorowanie plików konfiguracyjnych IDE
+.idea/
+.vscode/
+
